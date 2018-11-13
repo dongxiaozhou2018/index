@@ -2,4 +2,6 @@ body
 {
     background-color: blueviolet;
     color: azure;
+    display: flex;
+    
 }
