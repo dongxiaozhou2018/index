@@ -60,7 +60,7 @@ window.onload = function ()
     var tel = document.getElementById("tel");
     tel.onblur = function ()
     {
-        var result = this.value.match(/^[0-9]{11}$/);
+        var result = this.value.match(/^\+86[0-9]{11}$/);
         if (result == null)
         {
             document.getElementById("span5").innerText ="手机号有误";
